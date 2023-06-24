@@ -44,7 +44,7 @@ class Signup(FoodApp):
     def welcomeuser(self):
         print(self.userid)
         print(" Sigin Successful !!!\n","Welcome user",self.username)
-        time.sleep()     
+        time.sleep(2)     
         
 class restaurants:
     
@@ -61,7 +61,7 @@ class restaurants:
         res2=restaurants(2,'ABC restaurants','Veg',{1:{'Food':'Idli','Price':25},2:{'Food':'Dosa','Price':30}},'* * * * *')
         self.l.append(res1)
         self.l.append(res2)
-        print(self.l)
+        
         
     def showvegmenu(self):
         for i in self.l:
